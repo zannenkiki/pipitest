@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">东风燃气管线巡检系统</string>
+    <string name="sub_app_name">The Science of Where</string>
+    <integer name="spatial_reference_code">4490</integer>
+    <string name="initial_extent_str">104.284294,35.238497,107.661713,39.387783</string>
+    <!--基础底图管理-->
+    <string name="default_basemap">raster</string>
+    <string name="vector_tile_url">http://map.geoq.cn/arcgis/rest/services/ChinaOnlineCommunity/MapServer</string>
+    <!--tpk底图数据-->
+    <string name="vector_tile_cache">/sdcard/ArcGIS/gasdata/MapPackage/dfrq_SYSL.tpk</string>
+    <!--<string name="raster_tile_url">/sdcard/Hymn/basemap/dzzh.mmpk</string>-->
+    <!--<string name="raster_tile_cache">/sdcard/Hymn/basemap/gxkyx2016</string>-->
+    <string name="road_tile_url">http://map.geoq.cn/arcgis/rest/services/ChinaOnlineCommunity/MapServer</string>
+    <string name="road_tile_cache">/sdcard/ArcGIS/gasdata/MapPackage/dfrq_SYSL.tpk</string>
+    <!--业务数据管理-->
+    <string-array name="operations_layer_read">
+        <item>/sdcard/ArcGIS/gasdata/MapPackage/Network.geodatabase</item>
+        <item>/sdcard/ArcGIS/gasdata/MapPackage/Network.geodatabase</item>
+    </string-array>
+
+
+    <string name="action_settings">设置</string>
+    <string name="operations_layer_label">
+        阀门编号： 中-F93Z1\n
+        外业点号： E3223\n
+        内业编号： 640004750M43\n
+        测点性质：\n
+        管线附件： 阀门\n
+        X坐标： 64014.1992188\n
+        Y坐标：47746.1015625\n
+        地面高程：243.3809967
+    </string>
+</resources>

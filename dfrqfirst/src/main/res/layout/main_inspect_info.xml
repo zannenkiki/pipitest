@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_inspect_info"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zq.dfrqfirst.MainActivity">
+
+    <android.support.percent.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/topInfo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical"
+            app:layout_heightPercent="88%">
+
+            <android.support.percent.PercentRelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:id="@+id/top_left"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+
+                    android:background="#87CEEB"
+                    android:orientation="vertical"
+                    app:layout_widthPercent="22%">
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="30sp"
+                        android:gravity="center_vertical"
+                        android:text="任务编号：" />
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="match_parent"
+                        android:layout_height="30sp"
+                        android:gravity="center_vertical"
+                        android:text="设备编号：" />
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="44dp"
+                        android:gravity="center_vertical"
+                        android:text="所在位置：" />
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:gravity="center_vertical"
+                        android:text="问题描述：" />
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="match_parent"
+                        android:layout_height="30sp"
+                        android:gravity="center_vertical"
+                        android:text="严重等级：" />
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="30sp"
+                        android:gravity="center_vertical"
+                        android:text="状态信息：" />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp"
+                        android:gravity="center_vertical"
+                        android:text="现场照片：" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/top_right"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentEnd="true"
+
+                    android:background="#E6E6FA"
+                    android:orientation="vertical"
+                    app:layout_widthPercent="78%">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30sp"
+                        android:gravity="center_vertical"
+                        android:text="SJ5352017355150321" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30sp"
+                        android:gravity="center_vertical"
+                        android:text="D163A" />
+
+                    <EditText
+                        android:id="@+id/edit1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="北京路西路13号福源小区2号楼" />
+                    <EditText
+                        android:id="@+id/edit2"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="积雪、渗水"/>
+                    <Spinner
+                        android:layout_width="match_parent"
+                        android:layout_height="30sp"
+                        android:id="@+id/spinner1"
+                        android:entries="@array/spingarr"
+                        />
+                    <Spinner
+                        android:layout_width="match_parent"
+                        android:layout_height="30sp"
+                        android:id="@+id/spinner2"
+                        android:entries="@array/status"
+                        />
+
+                    <ImageButton
+                        android:id="@+id/imageButton2"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:tooltipText="点击拍照"
+                        app:srcCompat="@android:drawable/ic_menu_gallery" />
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="拍照" />
+
+                </LinearLayout>
+
+            </android.support.percent.PercentRelativeLayout>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/bottomButton"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/colorPrimary"
+
+
+            android:layout_weight="1"
+            app:layout_heightPercent="12%">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:text="保存" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/button"
+                android:text="取消" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:text="上传" />
+
+        </RelativeLayout>
+
+    </android.support.percent.PercentRelativeLayout>
+
+</LinearLayout>

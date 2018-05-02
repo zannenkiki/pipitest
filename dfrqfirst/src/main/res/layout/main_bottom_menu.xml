@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_bottom_menu"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:background="@color/colorBackground">
+    <LinearLayout
+        android:id="@+id/id_tab_weixin"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_margin="0dp"
+        android:orientation="vertical">
+        <!--<ImageButton
+            android:id="@+id/id_tab_weixin_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="#000000"
+            android:background="@color/buttonColor"/>-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="地图"
+            android:textColor="#fff"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:background="@drawable/text_view_border"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/id_tab_frd"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_margin="0dp"
+        android:orientation="vertical">
+        <!--<ImageButton
+            android:id="@+id/id_tab_frd_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="#000000"
+            android:background="@color/buttonColor"/>-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="任务"
+            android:textColor="#fff"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:background="@drawable/text_view_border"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/id_tab_address"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_margin="0dp"
+        android:orientation="vertical">
+       <!-- <ImageButton
+            android:id="@+id/id_tab_address_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="#000000"
+            android:background="@color/buttonColor"/>-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="详情"
+            android:textColor="#fff"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:background="@drawable/text_view_border"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/id_tab_setting"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_margin="0dp"
+        android:orientation="vertical">
+        <!--<ImageButton
+        android:id="@+id/id_tab_setting_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="#000000"
+        android:background="@color/buttonColor" />-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="设置"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:background="@drawable/text_view_border"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="window_width">300dp</dimen>
+    <dimen name="window_header_height">50dp</dimen>
+    <dimen name="window_header_height_inner">100dp</dimen>
+    <dimen name="window_inner">8dp</dimen>
+    <dimen name="nav_header_height">120dp</dimen>
+    <dimen name="nav_width">220dp</dimen>
+    <dimen name="basemap_layer_imagewidth">92dp</dimen>
+    <dimen name="basemap_layer_imageheight">65dp</dimen>
+</resources>

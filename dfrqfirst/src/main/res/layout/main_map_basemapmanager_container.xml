@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal|center_vertical"
+    android:orientation="horizontal"
+    android:layout_marginTop="@dimen/window_inner"
+    android:layout_marginLeft="@dimen/window_inner"
+    android:layout_marginRight="@dimen/window_inner">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/managerlayer_online"
+            android:layout_width="@dimen/basemap_layer_imagewidth"
+            android:layout_height="@dimen/basemap_layer_imageheight"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:src="@drawable/online_basemap" />
+
+        <TextView
+            android:layout_width="@dimen/basemap_layer_imagewidth"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_marginTop="@dimen/window_inner"
+            android:background="@color/buttonColor"
+            android:clickable="false"
+            android:text="在线底图"
+            android:textAlignment="center"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_marginLeft="@dimen/window_inner"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/managerlayer_offline"
+            android:layout_width="@dimen/basemap_layer_imagewidth"
+            android:layout_height="@dimen/basemap_layer_imageheight"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:src="@drawable/offline_basemap" />
+
+        <TextView
+            android:layout_width="@dimen/basemap_layer_imagewidth"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/window_inner"
+            android:background="@color/buttonColor"
+            android:clickable="false"
+
+            android:text="离线底图"
+            android:textAlignment="center"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+</LinearLayout>

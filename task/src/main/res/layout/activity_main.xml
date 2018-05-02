@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBackground">
+
+    <!--<include-->
+        <!--layout="@layout/main_inspect_info"-->
+        <!--android:id="@+id/info"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="match_parent"-->
+         <!--/>-->
+    <include
+        layout="@layout/main_activity_header_container"
+        android:id="@+id/main_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"/>
+
+    <!--<include
+        android:id="@+id/main_task_view"
+        layout="@layout/main_task"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+
+        android:layout_below="@+id/main_title"
+        android:layout_toEndOf="@id/main_title" />-->
+    <!--<include
+        layout="@layout/main_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+
+        android:layout_below="@+id/main_title"
+        android:layout_toEndOf="@id/main_title" />-->
+    <include
+        layout="@layout/main_setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+
+        android:layout_below="@+id/main_title"
+        android:layout_toEndOf="@id/main_title" />
+
+    <include
+        layout="@layout/main_bottom_menu"
+        android:id="@+id/menu"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="60dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+
+    android:paddingTop="10dp"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/mainLocationBT"
+            android:layout_width="40dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/button_shape"
+            android:scaleType="centerInside"
+            android:src="@drawable/location_w2" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="4dp">
+            <ImageButton
+                android:id="@+id/mainZoomInBT"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/button_shape"
+                android:scaleType="centerInside"
+                android:src="@drawable/zoomin_w" />
+
+            <ImageButton
+                android:id="@+id/mainZoomOutBT"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/button_shape"
+                android:scaleType="centerInside"
+                android:src="@drawable/zoomout_w" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="4dp">
+            <ImageButton
+                android:id="@+id/mainMLengthBT"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/button_shape"
+                android:scaleType="centerInside"
+                android:src="@drawable/ruler_w" />
+            <ImageButton
+                android:id="@+id/mainMAreaBT"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/button_shape"
+                android:scaleType="centerInside"
+                android:src="@drawable/area_w" />
+
+        </LinearLayout>
+        <ImageButton
+            android:id="@+id/mainSearchBT"
+            android:layout_width="40dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/button_shape"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_action_search" />
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/mainOpenRightBT"
+        android:layout_width="40dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/button_shape"
+
+        android:scaleType="centerInside"
+        android:src="@drawable/layer_w2" />
+</LinearLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/window_header_height"
+        android:layout_marginTop="@dimen/window_inner"
+        android:layout_marginLeft="@dimen/window_inner"
+        android:layout_marginRight="@dimen/window_inner"
+        android:clickable="false"
+        android:text="基础底图"
+        android:background="@color/buttonColor"
+        />
+    <include
+        layout="@layout/main_map_basemapmanager_container"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/window_header_height"
+        android:layout_marginTop="@dimen/window_inner"
+        android:layout_marginLeft="@dimen/window_inner"
+        android:layout_marginRight="@dimen/window_inner"
+        android:clickable="false"
+        android:text="业务数据"
+        android:background="@color/buttonColor"/>
+
+    <!--<ListView-->
+        <!--android:id="@+id/managerlayer_operation"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_marginTop="@dimen/window_inner"-->
+        <!--android:layout_marginLeft="@dimen/window_inner"-->
+        <!--android:layout_marginRight="@dimen/window_inner"-->
+        <!--&gt;</ListView>-->
+    <include
+        layout="@layout/main_operation_layer_item"
+        ></include>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_select_all"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:layout_marginTop="@dimen/window_inner"
+            android:layout_marginLeft="@dimen/window_inner"
+            android:layout_marginRight="@dimen/window_inner"
+            android:text="全选"
+            android:background="@color/buttonColor"
+            android:textColor="#fff" />
+        <Button
+            android:id="@+id/btn_select_invert"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:layout_marginTop="@dimen/window_inner"
+            android:layout_marginLeft="@dimen/window_inner"
+            android:layout_marginRight="@dimen/window_inner"
+            android:text="反选"
+            android:background="@color/buttonColor"
+            android:textColor="#fff" />
+        <Button
+            android:id="@+id/btn_select_none"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:layout_marginTop="@dimen/window_inner"
+            android:layout_marginLeft="@dimen/window_inner"
+            android:layout_marginRight="@dimen/window_inner"
+            android:text="清除"
+            android:background="@color/buttonColor"
+            android:textColor="#fff" />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="operations_layer_label_field_name">
+        <item>气站,MC</item>
+        <item>凝水缸,MC</item>
+        <item>盖堵,MC</item>
+        <item>阀门</item>
+        <item>遥测,MC</item>
+        <item>出地,MC</item>
+        <item>调压器,ID</item>
+        <item>波状伸缩器,NAME</item>
+        <item>四通,NAME</item>
+        <item>变径,NAME</item>
+        <item>三通,NAME</item>
+        <item>低压管线,NAME</item>
+        <item>管线,NAME</item>
+    </string-array>
+    <string-array name="operations_layer_label">
+        <item>阀门编号</item>
+        <item>凝水缸,MC</item>
+        <item>盖堵,MC</item>
+        <item>阀门,MC</item>
+        <item>遥测,MC</item>
+        <item>出地,MC</item>
+        <item>调压器,ID</item>
+        <item>波状伸缩器,NAME</item>
+        <item>四通,NAME</item>
+        <item>变径,NAME</item>
+        <item>三通,NAME</item>
+        <item>低压管线,NAME</item>
+        <item>管线,NAME</item>
+    </string-array>
+
+    <string-array name="spingarr">
+        <item>一般</item>
+        <item>严重</item>
+    </string-array>
+    <string-array name="status">
+        <item>正在处理</item>
+        <item>等候处理</item>
+        <item>处理完成</item>
+    </string-array>
+</resources>

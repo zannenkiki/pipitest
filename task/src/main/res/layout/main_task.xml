@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    tools:context="com.zq.task.MainActivity">
+
+    <android.support.percent.PercentRelativeLayout
+        android:id="@+id/topInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:id="@+id/top_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+
+
+            android:orientation="vertical"
+            app:layout_widthPercent="20%">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="30sp"
+                android:background="@color/buttonColor"
+                android:gravity="center_vertical"
+                android:text="编号"
+                android:textColor="@color/colorBackground"
+                android:textSize="18sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#33000000" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="44sp"
+                android:gravity="center_vertical"
+                android:text="A013D"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#33000000" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="44sp"
+                android:gravity="center_vertical"
+                android:text="A013A"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#33000000" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="44sp"
+                android:gravity="center_vertical"
+                android:text="A013B"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#33000000" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="44sp"
+                android:gravity="center_vertical"
+                android:text="A013C"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#33000000" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/top_middle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/top_left"
+
+            android:background="@color/colorBackground"
+            android:orientation="vertical"
+            app:layout_widthPercent="60%">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30sp"
+                android:background="@color/buttonColor"
+                android:gravity="center_vertical"
+                android:text="任务名称"
+                android:textColor="@color/colorBackground"
+                android:textSize="18sp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#33000000" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="44sp"
+                android:gravity="center_vertical"
+                android:text="北京路（河北路-杭州路）"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#33000000" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="44sp"
+                android:gravity="center_vertical"
+                android:text="杭州路（北京路-太原路）"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#33000000" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="44sp"
+                android:gravity="center_vertical"
+                android:text="太原路（杭州路-河北路）"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#33000000" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="44sp"
+                android:gravity="center_vertical"
+                android:text="河北路（太原路-北京路）"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#33000000" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/top_right"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_toRightOf="@id/top_middle"
+
+            android:background="@color/colorBackground"
+            android:orientation="vertical"
+            app:layout_widthPercent="20%">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30sp"
+                android:background="@color/buttonColor"
+                android:gravity="center_vertical"
+                android:text="设备数"
+                android:textColor="@color/colorBackground"
+                android:textSize="18sp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#33000000" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="44sp"
+                android:gravity="center_vertical"
+                android:text="51"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#33000000" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="44sp"
+                android:gravity="center_vertical"
+                android:text="61"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#33000000" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="44sp"
+                android:gravity="center_vertical"
+                android:text="1"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#33000000" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="44sp"
+                android:gravity="center_vertical"
+                android:text="47"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#33000000" />
+        </LinearLayout>
+
+    </android.support.percent.PercentRelativeLayout>
+</android.support.constraint.ConstraintLayout>

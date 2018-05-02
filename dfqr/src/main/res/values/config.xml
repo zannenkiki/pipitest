@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="config.data.sdcard.offline.dir.mmpk">ArcGIS/gasdata/MapPackage</string>
+    <string name="config.data.sdcard.offline.dir.vtpk">ArcGIS/gasdata/MapPackage</string>
+    <string name="config.data.sdcard.offline.dir.geodatabase">ArcGIS/gasdata/MapPackage</string>
+    <string name="config.data.sdcard.offline.dir.tpk">ArcGIS/gasdata/MapPackage</string>
+    <string name="config.tpk.name">dfrq_SYSL</string>
+    <string name="config.vtpk.name">DFRQ</string>
+    <string name="config.geodatabase.name">Network</string>
+    <string name="config.mmpk.name">DongFengNetwork</string>
+</resources>

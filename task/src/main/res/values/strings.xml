@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">巡检信息</string>
+    <string name="task">任务列表</string>
+    <string name="details">任务详情</string>
+    <string name="setting">用户设置</string>
+    <string name="server_path">http:192.168.70.148:80</string>
+    <string name="local_path">/mnt/sdcard/OfflineMap</string>
+</resources>
